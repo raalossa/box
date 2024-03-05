@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+
+</head>
+<body>
+<section class="sectionbox">
+    <h1 class="title" >Products Per Box</h1>
+
+<p>description of the program bla bla  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequatur, voluptate, minima ratione nihil alias perferendis voluptatem molestiae fuga, ut quod laudantium. Excepturi iusto rem culpa nam magnam tenetur. Adipisci?</p>    
+<div >
+<img class="imagebox" src="images/c1.jpg" alt="f1">
+
+<a href="input-data.html"> <button>Go!</button></a>
+
+</div>
+
+
+</section>
+
+<a href="input-data.html"><button>Go Dimensions</button></a>
+    
+</body>
+</html>
