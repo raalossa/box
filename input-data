@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+    <title>Document</title>
+
+    
+</head>
+<body>
+    <a href="index.html"><button>Go Home</button></a>
+
+    <section class="sectionbox">
+        <h1 class="title" >Products Per Box</h1>
+        <h2>Input Data</h2>
+    
+    <p>description of the program bla bla  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequatur, voluptate, minima ratione nihil alias perferendis voluptatem molestiae fuga, ut quod laudantium. Excepturi iusto rem culpa nam magnam tenetur. Adipisci?</p>    
+    <div class="box">
+        <img class="imagebox" src="images/c2.jpg" alt="Bpx Photo">
+
+        <div class="databox1">
+            <input type="number" class="inputnum" id="bw1">
+            <label  for="widhtbox">Width in mm</label>
+        </div>
+
+        <div class="databox2">
+            <input type="number" class="inputnum" id="bl1">
+            <label for="widhtbox">Large in mm</label>  
+        </div>
+
+        <div class="databox3">
+            <input type="number" class="inputnum" id="bh1">
+            <label for="widhtbox">Heigh in mm</label>
+        </div>
+
+    </div>
+    
+    <div class="box">
+        <img class="imagebox" src="images/c4.jpg" alt="Product Photo">   
+
+        <div class="databox4">
+            <input type="number" class="inputnum4" id="pw1">
+            <label  for="widhtbox">Width in mm</label>
+            
+        </div>
+ 
+        <div class="databox5">
+            <input type="number" class="inputnum5" id="pl1">
+            <label for="widhtbox">Large in mm</label>  
+
+        </div>
+
+        <div class="databox6">
+            <input type="number" class="inputnum6" id="ph1">
+            <label for="widhtbox">Heigh in mm</label>
+    
+        </div>
+    </div>
+
+        <h1></h1>
+
+        <!--
+    <div  class="table">
+        <form action=" ">
+            <table>
+                <tr>
+                    <td>Number of packages Width</td>
+                    <td><select name="" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td>Number of packages Length</td>
+                    <td><select name="" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td>Number of packages High</td>
+                    <td><select name="" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select></td>
+                </tr>
+
+            </table>
+
+            
+
+           </form>
+          
+
+    </div>
+
+    -->
+    <div class="resultado" id="resultado" ></div>
+
+
+        
+    </section>
+
+
+
+
+
+    <button type="submit" onclick="calcu()" class="but">Calcule</button>
+
+
+
+
+
+
+
+
+</body>
+</html>
